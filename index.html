@@ -1,0 +1,46 @@
+
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <link rel="icon" type="image/svg+xml" href="/vite.svg" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>EduSphere - School Management SaaS</title>
+    <script src="https://cdn.tailwindcss.com"></script>
+    <script>
+      tailwind.config = {
+        darkMode: 'class',
+        theme: {
+          extend: {
+            colors: {
+              primary: {
+                DEFAULT: 'hsl(210, 40%, 50%)',
+                light: 'hsl(210, 40%, 95%)',
+                dark: 'hsl(210, 40%, 40%)',
+              },
+              secondary: 'hsl(210, 10%, 40%)',
+              light: 'hsl(210, 15%, 98%)',
+              dark: 'hsl(210, 10%, 15%)',
+              "dark-secondary": 'hsl(210, 10%, 25%)',
+            },
+          }
+        }
+      }
+    </script>
+  <script type="importmap">
+{
+  "imports": {
+    "@google/genai": "https://aistudiocdn.com/@google/genai@^1.27.0",
+    "recharts": "https://aistudiocdn.com/recharts@^3.3.0",
+    "react-dom/": "https://aistudiocdn.com/react-dom@^19.2.0/",
+    "react/": "https://aistudiocdn.com/react@^19.2.0/",
+    "react": "https://aistudiocdn.com/react@^19.2.0"
+  }
+}
+</script>
+</head>
+  <body class="bg-light dark:bg-dark text-secondary dark:text-gray-300">
+    <div id="root"></div>
+    <script type="module" src="/index.tsx"></script>
+  </body>
+</html>

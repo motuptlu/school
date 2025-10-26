@@ -1,0 +1,5 @@
+{
+  "name": "EduSphere - School Management SaaS",
+  "description": "A comprehensive, multi-tenant SaaS platform for schools to manage students, teachers, classes, fees, and more. Features an AI-powered report generator, role-based dashboards, and a clean, modern interface.",
+  "requestFramePermissions": []
+}
